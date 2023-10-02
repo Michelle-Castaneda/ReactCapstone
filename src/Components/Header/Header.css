@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 30px;
     background-color: #333; 
@@ -21,12 +21,13 @@
 }
 
 .nav_item {
-    margin: 0 15px;
+    margin: 0 35px;
     position: relative;
     transition: color 0.3s ease;
     cursor: pointer;
     color:#ffffff;
     font-size: 20x;
+    text-align: center;
 }
 
 .nav_item:hover {
