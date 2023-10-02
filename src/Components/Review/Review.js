@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReviewCard from "../ReviewCard/ReviewCard";
 import "./Review.css";
 import axios from "axios";
-import reviews_animation from "./reviews_animation.gif"
+// import reviews_animation from "./reviews_animation.gif"
 
 function Review() {
   const [reviews, setReviews] = useState([]);
@@ -25,7 +25,7 @@ function Review() {
     <div className="outerReviewsContainer">
       <div className="leftContent">
     <h3 className="reviewsTitle">Recent Reviews</h3>
-      <img src={reviews_animation} alt="reviews animation"/>
+      {/* <img src={reviews_animation} alt="reviews animation"/> */}
       </div>
 
 

@@ -31,7 +31,7 @@
     overflow-x: auto;
 }
 
-.reviewsTitleBtns {
+/* .reviewsTitleBtns {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,12 +39,13 @@
     padding-bottom: 20px;
     border-bottom: 2px solid #e1e1e1;
     margin-bottom: 20px;
-}
+} */
 
 .reviewsTitle {
     font-size: 1.5em;
     color: #333;
-    margin: 0;
+    margin-top: 120px;
+    text-align: center;
 }
 
 .reviewsBtns {
@@ -53,13 +54,18 @@
 }
 
 svg {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
-    color: #333;
     transition: color 0.3s;
+    align-items: center;
+    align-content: center;
 }
 
 svg:hover {
     color: #555;
+}
+
+.starIcon {
+    color: gold;
 }

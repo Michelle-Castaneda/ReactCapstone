@@ -26,20 +26,20 @@
 
 .appointmentCard_container input:focus,
 .appointmentCard_container select:focus {
-    border-color: #24a0ed;
+    border-color: #b79034;
     box-shadow: 0 0 5px rgba(36, 160, 237, 0.4);
     outline: none;
 }
 
 .appointmentCard_container button {
-    background-color: #24a0ed;
+    background-color: #bf8d1a;
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.4s;
 }
 
 .appointmentCard_container button:hover {
-    background-color: #1981c1;
+    background-color: #c1b319;
 }
 
 .successMessage {

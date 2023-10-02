@@ -101,7 +101,7 @@ select {
 .reviewAndContact_container {
     display: flex;
     justify-content: space-evenly; 
-    align-items: start; 
+    align-items: flex-start; 
     gap: 20px;
 }
 

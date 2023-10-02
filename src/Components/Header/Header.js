@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "./gofer_logo.jpeg";
-import DiscountIcon from "@mui/icons-material/Discount";
+// import DiscountIcon from "@mui/icons-material/Discount";
 import { Link } from "react-router-dom";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
@@ -61,7 +61,7 @@ function Header() {
       <div className="nav_item">
         <div className="dropdown">
           <span className="header_specials">Specials</span>
-          <DiscountIcon />
+          {/* <DiscountIcon /> */}
           <div className="dropdown-menu">
             <ul className="header_financing_dropdown">
               <li>
@@ -82,12 +82,12 @@ function Header() {
       </div>
 
       <span className="header_goferinfo">
-      <BsFillGeoAltFill/> 1703 N Tower Rd Alamo, Texas, United States   <PhoneAndroidIcon/>(956) 258-5021
+      <BsFillGeoAltFill/> 1703 N Tower Rd Alamo, Texas, United States        <PhoneAndroidIcon className="phoneIcon" fontSize="small" />(956) 258-5021
       </span>
 
-      <Link to="/authentication" style={{ textDecoration: "none" }}>
+      {/* <Link to="/authentication" style={{ textDecoration: "none" }}>
         <span className="header_login">Login</span>
-      </Link>
+      </Link> */}
     </div>
   );
 }

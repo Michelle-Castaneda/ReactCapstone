@@ -13,7 +13,7 @@ function ReviewCard({reviewData}) {
           {Array(reviewData.rating)
             .fill()
             .map((_, i) => (
-              <StarIcon key={i} />
+              <StarIcon key={i} className="starIcon"/>
             ))}
         </p>
         <p className="review_text">{reviewData.review}</p>

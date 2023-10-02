@@ -26,7 +26,7 @@
     transition: color 0.3s ease;
     cursor: pointer;
     color:#ffffff;
-    font-size: 15x;
+    font-size: 20x;
 }
 
 .nav_item:hover {
@@ -34,7 +34,7 @@
 }
 
 .header_goferinfo {
-    font-size: 16px;
+    font-size: 14px;
     color: #a3a3a3; 
     width: 100%;
     text-align: center;
@@ -87,20 +87,28 @@
     margin: 0;  
 }
 
+
+
+
 .header_financing_dropdown li a:hover {
     background-color: #f39c12; 
 }
 
-.header_login {
+/* .header_login {
     padding: 5px 20px;
-    /* background-color: #f39d1269;  */
+    background-color: #f39d1269; 
     border-radius: 5px;
     cursor: pointer;
     color:#ffffff;
     transition: background-color 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
-}
+} */
 
 .header_login:hover {
     background-color: #e67d2248;
+}
+
+
+.discountIcon{
+    size: 10px;
 }
