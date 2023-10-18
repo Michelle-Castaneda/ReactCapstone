@@ -39,13 +39,11 @@ function ContactCard () {
             Comments: formData.comments,
             car_id: selectedCar
         };
-        console.log(appointmentData);
 
         
         
         axios.post("http://localhost:4000/contact_information", appointmentData)
             .then(response => {
-                console.log("Appointment data sent:", response.data);
 
                 setFormData({
                     name: '',

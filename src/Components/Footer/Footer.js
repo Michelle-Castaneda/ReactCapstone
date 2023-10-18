@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import ContactCard from "../ContactCard/ContactCard";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 function Footer() {
   return (
@@ -16,11 +17,12 @@ function Footer() {
         </div>
       </div>
 
+
       <div className="footer_address">
         {" "}
         1703 N Tower rd , Alamo, TX, United States, Texas{" "}
         <iframe className="footer_map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92265.82730219417!2d-98.18015711525887!3d26.175268829853575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86659fa4d80bf873%3A0x8c49f9589c8000d0!2s1703%20N%20Tower%20Rd%2C%20Alamo%2C%20TX%2078516!5e0!3m2!1sen!2sus!4v1696102097164!5m2!1sen!2sus" 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28633.888531722707!2d-98.1018341!3d26.2215181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86659f5b93e0b6d5%3A0x948d328f2ce5f191!2sGofer%20Motors%2C%20LLC!5e0!3m2!1sen!2sus!4v1697062032696!5m2!1sen!2sus" 
                     width="600" 
                     height="450" 
                     style={{ border: "0" }} 
@@ -43,6 +45,7 @@ function Footer() {
       <p className="privacy_rights">
         © 2023 Gofer Motors LLC. All rights reserved.
       </p>
+      <SocialIcons />
     </div>
   );
 }

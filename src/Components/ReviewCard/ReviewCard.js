@@ -3,7 +3,6 @@ import "./ReviewCard.css";
 import StarIcon from "@mui/icons-material/Star";
 
 function ReviewCard({reviewData}) {
-    console.log("Review Card Data", reviewData)
 
   return (
 

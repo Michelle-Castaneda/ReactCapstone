@@ -12,7 +12,7 @@ const sequelize = new Sequelize(CONNECTION_STRING, {
 });
 
 function sendEmail(customerInfo){
-  const { Name, Last_Name, Phone, Email,  Comments, car_id } = customerInfo
+  const { Name, Last_Name, Phone, Email,  Comments, car_id, Model, Year } = customerInfo
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -31,7 +31,7 @@ const mailOptions = {
     Phone: ${Phone}
     Email: ${Email}
     Comments: ${Comments}
-    Vehicle ID: ${car_id}
+    Vehicle ID: ${car_id + Model + Year }
     `
 };
 

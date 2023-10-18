@@ -67,7 +67,7 @@ function Header() {
               <li>
                 <a href="#option1">Cash Price</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#option2">No Down Payment</a>
               </li>
               <li>
@@ -75,12 +75,13 @@ function Header() {
               </li>
               <li>
                 <a href="#option4">Bonus Cash</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
       </div>
 
+<span className="header_espanol">Hablamos Español</span>
       <span className="header_goferinfo">
       <BsFillGeoAltFill/> 1703 N Tower Rd Alamo, Texas, United States        <PhoneAndroidIcon className="phoneIcon" fontSize="small" />(956) 258-5021
       </span>

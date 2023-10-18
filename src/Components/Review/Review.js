@@ -11,7 +11,6 @@ function Review() {
     axios
       .get("http://localhost:4000/user_reviews")
       .then((response) => {
-        console.log("Reviews Data", response.data);
         setReviews(response.data);
       })
       .catch((error) => {
